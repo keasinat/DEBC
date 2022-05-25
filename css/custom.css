@@ -1,0 +1,35 @@
+/*
+My custom css.
+Keep it going with this css
+*/
+
+table td,th{
+	font-family: "Hanuman", sans-serif;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	line-height: 1.8;
+}
+th{
+	font-family: 'Fira Sans', sans-serif;
+}
+table td a{
+	color: #000;
+}
+table td a:hover{
+	color: #2193f1;
+}
+
+.text-no-wrap{
+	white-space: nowrap;
+}
+.service-block .detail{
+	color: #999;
+    font-size: 15px;
+    font-weight: 400;
+}
+.detail li,.text-content-big li{
+	text-align: left;
+	list-style: circle;
+	margin-left: 25px;
+}

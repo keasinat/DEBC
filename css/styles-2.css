@@ -288,9 +288,9 @@ TABLE OF CONTENT
     display: block;
     width: 100px;
     height: 3px;
-    background: #2193f1;
+    background: #F2C46D;
     border-radius: 25%;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 15px;
     margin-bottom: 5px;
 }
@@ -375,17 +375,17 @@ TABLE OF CONTENT
 .nav-menu > li:hover > a,
 .nav-menu > li.active > a,
 .nav-menu > li.focus > a {
-    color: #2193f1;
+    color: #2A6BBF;
 }
 
 .nav-menu > li:hover > a .submenu-indicator-chevron,
 .nav-menu > .active > a .submenu-indicator-chevron,
 .nav-menu > .focus > a .submenu-indicator-chevron {
-    border-color: transparent #2193f1 #2193f1 transparent;
+    border-color: transparent #2A6BBF #2A6BBF transparent;
 }
 
 .nav-search-button:hover .nav-search-icon {
-    color: #2193f1;
+    color: #2A6BBF;
 }
 
 .nav-button {
@@ -404,7 +404,7 @@ TABLE OF CONTENT
 }
 
 .megamenu-list > li > a:hover {
-    color: #2193f1;
+    color: #2A6BBF;
 }
 
 @media (min-width: 991px) {
@@ -623,7 +623,7 @@ TABLE OF CONTENT
 
 .social-icons {
     padding: 0px;
-    float: right;
+    float: left;
     margin: 0px;
 }
 
@@ -638,7 +638,7 @@ TABLE OF CONTENT
 }
 
 .social-icons li a {
-    opacity: .7;
+    /* opacity: .7; */
     color: #fff;
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
@@ -828,8 +828,8 @@ b) Image-properties
 c) Buttons
 ----------------------*/
 .primary-button {
-    background: #2193f1;
-    color: #fff;
+    background: #F2C46D;
+    color: #222;
     font-size: 11px;
     font-weight: 500;
     border-radius: 50px;
@@ -840,7 +840,7 @@ c) Buttons
 }
 
 .primary-button:hover {
-    background: #222;
+    background: #2563ae;
     color: #fff;
 }
 
@@ -909,11 +909,11 @@ c) Buttons
 
 .bordered-button {
     background: transparent;
-    border: 2px solid #2193f1;
-    color: #fff;
+    border: 2px solid #F2C46D;
+    color: #000;
     font-size: 12px;
     font-weight: 600;
-    border-radius: 50px;
+    border-radius: 4px;
     padding: 10px 15px 10px 15px;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -921,8 +921,8 @@ c) Buttons
 }
 
 .bordered-button:hover {
-    border: 2px solid #2193f1;
-    background: #2193f1;
+    border: 2px solid #2563ae;
+    background: #2563ae;
     color: #fff;
 }
 
@@ -2005,9 +2005,9 @@ f) Overlays
 }
 
 @media (max-width: 991px) {
-    .serv-section-2 {
+    /* .serv-section-2 {
         margin-top: 20px;
-    }
+    } */
 
     .serv-section-2:before {
         margin-top: 0px;
@@ -2188,7 +2188,7 @@ f) Overlays
 .feature-box-3 {
     display: block;
     text-align: center;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 4px;
     margin: 15px 0;
     -webkit-transition: all .3s;
@@ -2213,6 +2213,7 @@ f) Overlays
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
+    color: #ffffff;
 }
 
 .feature-box-3 p {
@@ -3520,10 +3521,10 @@ f) Overlays
 /*-----------------------------------------
 17. Footer
 -------------------------------------------*/
-footer {
+/* footer {
     background: #111;
     padding: 60px 0px 20px 0px;
-}
+} */
 
 footer p {
     font-size: 14px;
@@ -3660,11 +3661,11 @@ footer h3:after {
 }
 
 
-.footer-bar {
+/* .footer-bar {
     border-top: 1px solid rgba(255, 255, 255, .1);
-    padding-top: 20px;
-    margin-top: 30px;
-}
+    /* padding-top: 20px; */
+    /* margin-top: 30px; */
+} */
 
 
 .footer-bar span {
@@ -5066,6 +5067,7 @@ Style 5
     -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
     box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
     margin: 20px 0px;
+    margin-top: 0;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
@@ -5087,8 +5089,8 @@ Style 5
 }
 
 .team-member-text {
-    text-align: center;
-    padding: 20px 50px;
+    text-align: left;
+    padding: 20px 30px;
 }
 
 .team-member-text h4 {
@@ -5105,7 +5107,7 @@ Style 5
 }
 
 .team-member-text span {
-    color: #2193f1;
+    color: #555252;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -5116,7 +5118,8 @@ Style 5
     font-size: 14px;
     font-weight: 400;
     line-height: 170%;
-    margin-top: 20px;
+    margin-top: 14px;
+    text-align: justify;
 }
 
 .team-member-text ul {
@@ -5644,15 +5647,17 @@ Top Video Section
     text-align: center;
     -webkit-transition-duration: .6s;
     transition-duration: .6s;
+    width: 100%;
+    padding: 0 15px 0 15px;
 }
 
 .project-grid:hover p {
-    top: 50%;
+    top: 60%;
     opacity: 1;
 }
 
 .project-grid-overlay span {
-    color: #999;
+    color: #F2C46D;
     font-size: 16px;
     font-weight: 500;
     position: absolute;

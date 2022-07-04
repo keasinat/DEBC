@@ -471,6 +471,9 @@
 .icon-building:before {
   content: "\e98a";
 }
+.icon-building-column:before {
+  content: "\f19c";
+}
 .icon-business-card2:before {
   content: "\e98b";
 }
